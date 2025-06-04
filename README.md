@@ -75,16 +75,13 @@ blender-render-background.ini
 ```
 blender-render-background/
 ├── icons/---
-> If we pull together and commit ourselves, then we can push through anything.
-
-— Mona the Octocat
 │   └── blender-icon.png
 ├── docs/
-│   └── screenshot.png (opcional)
-├── main.py
+│   └── blender-render-background.screenshot.png (opcional)
+├── blender-render-background-v2.py
+├── blender-render-background.ini
 ├── README.md
 ├── LICENSE
-└── .gitignore
 ```
 
 ## 📤 Licença
