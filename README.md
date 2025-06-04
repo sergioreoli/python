@@ -11,7 +11,24 @@ O icone do programa não poderia ser diferenre dalhe Suzane
 
 <img alt="blender-icon.png" src="blender-icon.png">
 
-A versão windows ainda está sendo Finalizada.
+```
+*** Roteiro de instalação e execução  ***
+1 Download do arquivo blender-render-backgroun.tar.gz
+2 Extrair o programa ma pasta desejada para extração
+3 Execute o programa no prompt
+  > python3 blender-render-background.py
+
+4 Tela principal do programa 
+ 4.1 Selecione o executável do blender
+ 4.2 Selecione o arquivo para renderização
+     Obs: O Output do .blender já deve estar configurado
+
+5 Click no botão Iniciar Renderização 
+6 Aguarde o termino da renderização
+
+```
+
+# A versão windows ainda está sendo Finalizada.
 
 
 ---
