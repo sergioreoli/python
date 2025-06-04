@@ -1,8 +1,8 @@
 # Blender Render Background V2 (GTK GUI)
 
-Aplicativo em Python + GTK para facilitar a renderização de arquivos `.blend` em segundo plano (modo background) com o Blender.
+<img alt="blender-render-background-screenshot.png" src="blender-render-background-screenshot.png?raw=true" data-hpc="true" class="Box-sc-g0xbh4-0 fzFXnm">
 
-![screenshot](docs/screenshot.png) <!-- opcional se quiser colocar uma imagem -->
+O Aplicativo em Python + GTK para facilitar a Renderização de arquivos `.blend` em segundo plano (modo background) com o Blender.
 
 ---
 
