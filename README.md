@@ -14,7 +14,7 @@ O icone do programa não poderia ser diferenre dalhe Suzane
 <img alt="blender-icon.png" src="blender-icon.png">
 
 ```
-*** Roteiro de instalação e execução  ***
+*** How to | Roteiro de instalação e execução  ***
 1 Download do arquivo blender-render-backgroun.tar.gz
 2 Extrair o programa ma pasta desejada para extração
 3 Execute o programa no prompt
