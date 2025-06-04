@@ -2,10 +2,12 @@
 
 <img alt="blender-render-background-screenshot.png" src="blender-render-background-screenshot.png">
 
-Aplicativo em Python + GTK for Linux facilita a Renderização de arquivos `.blend` em segundo plano (modo background) do Blender.
+Aplicativo em Python + GTK for Linux facilita a Renderização de arquivos `.blend` em segundo plano
+(modo background) do Blender.
 
 Com a renderização em background você pode dar continuidade com outros projetos no blender.
-Seu aquivo .blend deve estar configurado o tipo de saída o "output" para renderização seja em immagem ou vídeo
+Seu aquivo .blend deve estar configurado o tipo de saída o "output" para renderização seja em immagem
+ou vídeo
 
 O icone do programa não poderia ser diferenre dalhe Suzane
 
