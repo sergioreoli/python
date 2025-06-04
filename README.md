@@ -33,16 +33,14 @@ Instale o PyGObject (no Linux):
 ## 🚀 Como usar
 Clone o repositório:
 
-<code>
-git clone https://github.com/SEU_USUARIO/blender-render-background.git
-cd blender-render-background
-</code>
+---
+> git clone https://github.com/SEU_USUARIO/blender-render-background.git
+> cd blender-render-background
 
 ## Execute o programa:
 
-<code>
-python3 bldender-render-background.py
-</code>  
+---
+> python3 bldender-render-background.py
 
 ## Selecione:
 
