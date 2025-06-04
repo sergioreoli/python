@@ -1,11 +1,13 @@
-# Blender Render Background V2 (GTK GUI)
+# Blender Render Background V2 For Linux
 
 <img alt="blender-render-background-screenshot.png" src="blender-render-background-screenshot.png?raw=true" data-hpc="true" class="Box-sc-g0xbh4-0 fzFXnm">
 
-O Aplicativo em Python + GTK para facilitar a Renderização de arquivos `.blend` em segundo plano (modo background) com o Blender.
+Aplicativo em Python + GTK facilita a Renderização de arquivos `.blend` em segundo plano (modo background) do Blender.
+
+Com a renderização em background você pode dar continuidade com outros projetos no blender.
+Seu aquivo .blend deve estar configurado o tipo de saída o "output" para renderização seja em immagem ou vídeo
 
 ---
-
 c✨ Recursos
 
 - Interface gráfica leve e direta usando GTK+3
@@ -21,6 +23,9 @@ c✨ Recursos
 
 ## 🔧 Requisitos
 
+Execute o programa para ver se seu ambiente já tem as bibliotecas 
+nescessárias.
+
 - Python 3.x
 - [PyGObject (GTK+3)](https://pygobject.readthedocs.io/en/latest/)
 - Blender instalado no sistema
@@ -32,21 +37,24 @@ Instale o PyGObject (no Linux):
 ```
 
 ## 🚀 Como usar
-Clone o repositório:
-
-```
-git clone https://github.com/sergioreoli/blender-render-background.git
-cd blender-render-background
-```
+Baixe e realize a extração do arquivo blender-render-background.tar.gz em
+um diretório de sua preferencia para posterior execução.
 
 ## Execute o programa:
+
+Entre na pasta blender-render-background e execute o arquivo:
 
 ```
 python3 bldender-render-background.py
 ```
 
-## Crie um atalho o programa no menu do Linux
-blemder-remder-background.desktop
+## Atalho para Execução
+
+Execução via menu é opcional, crie um atalho do programa no menu do Linux
+que deseja colocar
+
+Crie um arquivo: blemder-remder-background.desktop
+
 ```
 [Desktop Entry]
 Version=1.0
@@ -73,39 +81,30 @@ chmod +x /caminho/para/blender-render-background.desktop
 mv /***caminho***/para/blender-render-background.desktop ~/.local/share/applications/
 ```
 
-
-
 ## Selecione:
 
-O executável do Blender
-O arquivo .blend desejado
-Clique em "Iniciar Renderização"
+Selecione o executável e a versão do Blender em sequidaa selecione seu arquivo .blend desejado 
+para renderização e em seguida Clique em "Iniciar Renderização"
 
 ##💡 Observações
-O caminho do Blender é salvo automaticamente no arquivo blender-render-background.ini
 
-A renderização é feita em background usando subprocess.Popen()
+O caminho do Blender é salvo automaticamente no arquivo blender-render-background.ini , a
+renderização é feita em background usando em um subprocess. 
 
+Na tela de execução é informado o PID do Subprocesso que pode ser acompanhado com programa
+TOP padão do linux no prompt de comando.
 
-## Doação
+## Doação para o Projeto
+
 Se esse app te ajudou, considere apoiar com uma doação:
+Sergop ReOli (Reis de Oliveira)
 Paypal: sergioreoli@hotmail.com
-
-### 📄 `.gitignore`
-
-```
-__pycache__/
-*.pyc
-*.pyo
-*.swp
-blender-render-background.ini
-````
 
 ## Estrutura sugerida do repositório
 
 ```
 blender-render-background/
-├── icons/---
+├── icons/-
 │   └── blender-icon.png
 ├── docs/
 │   └── blender-render-background.screenshot.png (opcional)
