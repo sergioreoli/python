@@ -64,12 +64,8 @@ MIT License. Veja o arquivo LICENSE para mais detalhes.
 Se esse app te ajudou, considere apoiar com uma doação:
 Paypal: sergioreoli@hotmail.com
 
-
-
-
 ### 📄 `.gitignore`
-
-```gitignore
+gitignore
 <code>
 __pycache__/
 *.pyc
@@ -77,3 +73,29 @@ __pycache__/
 *.swp
 blender-render-background.ini
 </code>
+
+##📄 LICENSE (MIT)
+
+<code>
+MIT License
+
+Copyright (c) 2025 Sergio
+
+Permission is hereby granted, free of charge, to any person obtaining a copy...
+...
+</code>
+
+## Estrutura sugerida do repositório
+
+<code>
+blender-render-background/
+├── icons/
+│   └── blender-icon.png
+├── docs/
+│   └── screenshot.png (opcional)
+├── main.py
+├── README.md
+├── LICENSE
+└── .gitignore
+</code>
+
