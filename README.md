@@ -64,3 +64,16 @@ MIT License. Veja o arquivo LICENSE para mais detalhes.
 Se esse app te ajudou, considere apoiar com uma doação:
 Paypal: sergioreoli@hotmail.com
 
+
+
+
+### 📄 `.gitignore`
+
+```gitignore
+<code>
+__pycache__/
+*.pyc
+*.pyo
+*.swp
+blender-render-background.ini
+</code>
