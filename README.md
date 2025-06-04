@@ -27,10 +27,8 @@ c✨ Recursos
 
 Instale o PyGObject (no Linux):
 
-<code>
-sudo apt install python3-gi gir1.2-gtk-3.0
-</code>
-
+---
+> sudo apt install python3-gi gir1.2-gtk-3.0
 
 ## 🚀 Como usar
 Clone o repositório:
