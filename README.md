@@ -64,28 +64,27 @@ Crie um arquivo: blemder-remder-background.desktop
 
 ```
 [Desktop Entry]
-Version=1.0
-Type=Application
-Name=Meu Programa Python
-Comment=Executar meu script Python
-Exec=python3 /caminho/para/seu/script.py
-Icon=/caminho/para/um/ícone.png
-Path=/caminho/para/o/diretório/do/script
+Name=Blender Render Background V2 Beta
+GenericName=3D Creation Suite
+Comment=Renderizador do Blender em Background V 1.0
+Exec=python3 /home/***seu-caminho***/blender-render-background/v2.py
+Icon=home/***seu-caminho***/blender-render-background/icons/blender-icon.png
 Terminal=false
-Categories=Utility;Application;
-Exec: Substitua /caminho/para/seu/script.py pelo caminho completo para o seu script Python.
-Icon: (Opcional) Substitua pelo caminho para um ícone se desejar um ícone personalizado.
-Path: (Opcional) Defina o diretório de trabalho para o script, se necessário.
+Type=Application
+Categories=Graphics;3DGraphics;
+StartupNotify=true
+Name[pt_BR]=Blender Renderizador 2.0
+
 ```
 
 ## Transforme o .desktop em execitável
 ```
-chmod +x /caminho/para/blender-render-background.desktop
+chmod +x /***seu-caminho***/para/blender-render-background.desktop
 ```
 ## Copie para a pasta de atalhes
 
 ```
-mv /***caminho***/para/blender-render-background.desktop ~/.local/share/applications/
+mv /***seu-caminho***/para/blender-render-background.desktop ~/.local/share/applications/
 ```
 
 ## Selecione:
