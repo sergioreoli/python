@@ -33,3 +33,5 @@ Instale o PyGObject (no Linux):
 sudo apt install python3-gi gir1.2-gtk-3.0
 
 
+...bash
+
