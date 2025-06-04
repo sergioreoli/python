@@ -44,6 +44,37 @@ cd blender-render-background
 ```
 python3 bldender-render-background.py
 ```
+
+## Crie um atalho o programa no menu do Linux
+blemder-remder-background.desktop
+```
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Meu Programa Python
+Comment=Executar meu script Python
+Exec=python3 /caminho/para/seu/script.py
+Icon=/caminho/para/um/ícone.png
+Path=/caminho/para/o/diretório/do/script
+Terminal=false
+Categories=Utility;Application;
+Exec: Substitua /caminho/para/seu/script.py pelo caminho completo para o seu script Python.
+Icon: (Opcional) Substitua pelo caminho para um ícone se desejar um ícone personalizado.
+Path: (Opcional) Defina o diretório de trabalho para o script, se necessário.
+```
+
+## Transforme o .desktop em execitável
+```
+chmod +x /caminho/para/blender-render-background.desktop
+```
+## Copie para a pasta de atalhes
+
+```
+mv /***caminho***/para/blender-render-background.desktop ~/.local/share/applications/
+```
+
+
+
 ## Selecione:
 
 O executável do Blender
