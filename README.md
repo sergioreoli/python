@@ -27,21 +27,23 @@ c✨ Recursos
 
 Instale o PyGObject (no Linux):
 
----
+```
 > sudo apt install python3-gi gir1.2-gtk-3.0
+```
 
 ## 🚀 Como usar
 Clone o repositório:
 
----
-> git clone https://github.com/sergioreoli/blender-render-background.git
-> cd blender-render-background
+```
+git clone https://github.com/sergioreoli/blender-render-background.git
+cd blender-render-background
+```
 
 ## Execute o programa:
 
----
-> python3 bldender-render-background.py
-
+```
+python3 bldender-render-background.py
+```
 ## Selecione:
 
 O executável do Blender
@@ -61,29 +63,28 @@ Se esse app te ajudou, considere apoiar com uma doação:
 Paypal: sergioreoli@hotmail.com
 
 ### 📄 `.gitignore`
-gitignore
-<code>
+
+```
 __pycache__/
 *.pyc
 *.pyo
 *.swp
 blender-render-background.ini
-</code>
+````
 
 ##📄 LICENSE (MIT)
 
-<code>
+```
 MIT License
 
 Copyright (c) 2025 Sergio
 
 Permission is hereby granted, free of charge, to any person obtaining a copy...
-...
-</code>
+```
 
 ## Estrutura sugerida do repositório
 
-<code>
+```
 blender-render-background/
 ├── icons/---
 > If we pull together and commit ourselves, then we can push through anything.
@@ -96,10 +97,4 @@ blender-render-background/
 ├── README.md
 ├── LICENSE
 └── .gitignore
-</code>
-
-
----
-> If we pull together and commit ourselves, then we can push through anything.
-
-— Mona the Octocat
+```
