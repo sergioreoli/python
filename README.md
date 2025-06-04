@@ -1,5 +1,3 @@
-# python
-
 # Blender Render Background V2 (GTK GUI)
 
 Aplicativo em Python + GTK para facilitar a renderização de arquivos `.blend` em segundo plano (modo background) com o Blender.
