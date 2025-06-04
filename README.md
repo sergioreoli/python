@@ -89,7 +89,10 @@ Permission is hereby granted, free of charge, to any person obtaining a copy...
 
 <code>
 blender-render-background/
-├── icons/
+├── icons/---
+> If we pull together and commit ourselves, then we can push through anything.
+
+— Mona the Octocat
 │   └── blender-icon.png
 ├── docs/
 │   └── screenshot.png (opcional)
@@ -99,3 +102,8 @@ blender-render-background/
 └── .gitignore
 </code>
 
+
+---
+> If we pull together and commit ourselves, then we can push through anything.
+
+— Mona the Octocat
