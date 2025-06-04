@@ -6,7 +6,7 @@ Aplicativo em Python + GTK para facilitar a renderização de arquivos `.blend` 
 
 ---
 
-## ✨ Recursos
+c✨ Recursos
 
 - Interface gráfica leve e direta usando GTK+3
 - Seleção do executável do Blender via FileChooser
@@ -30,3 +30,4 @@ Instale o PyGObject (no Linux):
 ```bash
 sudo apt install python3-gi gir1.2-gtk-3.0
 
+ 🚀 Como usar
