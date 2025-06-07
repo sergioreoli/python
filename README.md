@@ -2,6 +2,11 @@
 
 <img alt="blender-render-background-screenshot.png" src="blender-render-background-screenshot.png">
 
+<audio controls>
+  <source src="Voice-Blender-Render-Background-for-Linux.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
 Aplicativo em Python + GTK for Linux facilita a Renderização de arquivos `.blend`
 em segundo plano (modo background) do Blender.
 
